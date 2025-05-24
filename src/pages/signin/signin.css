@@ -37,21 +37,3 @@
   border-radius: 6px;
   cursor: pointer;
 }
-
-/* @media (max-width: 375px){
-  .signIn-content{
-    height: 48px;
-    width: 232px;
-  }
-
-
-.signIn-button{
-  width: 335px;
-  height: 46px;
-}
-
-.signIn-input-1, .signIn-input-2 {
-width: 335px;
-height: 40px;
-}
-} */
