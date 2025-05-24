@@ -4,23 +4,20 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 40px 20px;
   box-sizing: border-box;
   opacity: 1;
   gap: 20px;
 }
 
-.signIn-input{
- width: 100%;
- height: 100%;
- border-radius: 6px;
- border: none;
- padding-left: 6px;
- padding-bottom: 6px;
+.signIn-heading{
+  width: 100%;
+  max-width: 250px;
+  height: auto;
 }
 
-.signIn-input-1, .signIn-input-2 {
+.signIn-input{
   border-radius: 6px;
+  margin-top: 10px;
 }
 
 .label{
@@ -41,16 +38,12 @@
   cursor: pointer;
 }
 
-@media (max-width: 375px){
+/* @media (max-width: 375px){
   .signIn-content{
     height: 48px;
     width: 232px;
   }
 
-  .signIn-heading{
-  width: 188px;
-  height: 69;
-}
 
 .signIn-button{
   width: 335px;
@@ -61,4 +54,4 @@
 width: 335px;
 height: 40px;
 }
-}
+} */

@@ -1,8 +1,7 @@
 *{
-    box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box !important;
+    margin: 0px;
+    padding: 0px;
 }
 
 .app-container{
@@ -15,6 +14,26 @@
  background-color: #FFFFFF;
 }
 
+.container {
+  margin : auto;
+  height: 100%;
+  max-width: 375px;
+  width: 100%;
+  padding: 20px;
+  background-color: #F7F8F9;
+}
+
+
+.heading{
+  color: #1D2226;
+  font-size: 28px;
+}
+.content{
+  color: #1D2226;
+  opacity: 0.6;
+  padding: 5px 0px ;
+  font-size: 18px;
+}
 
 input {
   background-color: transparent;
@@ -23,8 +42,17 @@ input {
   outline: none; 
 }
 
+.form-input{
+  width: 100%;
+ height: 40px;
+ border-radius: 6px;
+ border: none;
+ padding-left: 6px;
+ padding-bottom: 6px;
+}
+/* 
 @media (max-width: 480px){
 .app-container{
  max-width: 400px;
 }
-}
+} */
