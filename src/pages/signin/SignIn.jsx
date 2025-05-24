@@ -63,7 +63,16 @@ const SignIn = () => {
         </fieldset>
       
       <div>
-      <button className="signIn-button" type="submit">Login</button>
+      <button 
+      className="signIn-button"
+       type="submit"
+       disabled={!(formData.email && formData.password)}
+       style={{
+       backgroundColor: formData.email && formData.password ? '#6C25FF' : '#CBCBCB',
+       }}
+       >
+        Login
+        </button>
       </div>
       </form>
 

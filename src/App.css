@@ -6,6 +6,7 @@
 }
 
 .app-container{
+  margin: 0 auto;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -20,4 +21,10 @@ input {
   border: none;
   box-shadow: none;
   outline: none; 
+}
+
+@media (max-width: 480px){
+.app-container{
+ max-width: 400px;
+}
 }
