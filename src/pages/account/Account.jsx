@@ -1,6 +1,7 @@
 import { useLocation } from 'react-router-dom';
-import profileImage from '../assets/profile.png';
-import cameraImage from '../assets/camera.png';
+import profileImage from '../../assets/profile.png';
+import cameraImage from '../../assets/camera.png';
+import './account.css'
 
 const AccountPage = () => {
 const location = useLocation();

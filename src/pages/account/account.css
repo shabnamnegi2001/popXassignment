@@ -1,0 +1,66 @@
+.main-account-container{
+  background-color: #F7F8F9;
+  height: 812px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  opacity: 1;
+  gap: 20px;
+}
+
+.nav-space{
+width: 375px;
+height: 68px;
+background-color: #FFFFFF;
+display: flex;
+align-items: center;
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+.user-info{
+  display: flex;
+ height: 76px;
+}
+
+.profile-info{
+  padding: 18px;
+}
+
+.profile{
+  height: 76px;
+  width: 76px;
+  position: relative;
+}
+
+.profile-img{
+  height: 100%;
+  width: 100%;
+}
+
+.camera-img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.about{
+  height: 63px;
+  width: 337px;
+  color: #1D2226;
+}
+
+.info-container{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.account-container{
+display: flex;
+flex-direction: column;
+}

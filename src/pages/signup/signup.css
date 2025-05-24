@@ -1,0 +1,37 @@
+.signUp-content-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signUp-input{
+ width: 335px;
+ height: 40px;
+ border-radius: 60px;
+ border: none;
+}
+
+.signUp{
+  border-radius: 6px;
+}
+
+.signUp-button{
+  height: 46px;
+  width: 335px;
+  background-color: #6C25FF;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.star{
+  color: #DD4A3D;
+}
+
+.radio-input{
+  display: flex;
+  gap: 17px;
+}

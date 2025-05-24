@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import './signin.css'
 
 const SignIn = () => {
   const navigate = useNavigate();
@@ -33,17 +34,34 @@ const SignIn = () => {
       </div>
 
       <form onSubmit={handleSubmit}>
-       <div className="signIn-input-1">
-        <label htmlFor="email" className="label label-1">Email Address</label>
-        <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="signUp-input" required/>
+        <fieldset className="signIn-input-1">
+          <legend className="label label-1">Email Address</legend>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            className="signIn-input"
+            placeholder="Enter email address"
+            required
+          />
+        </fieldset>
 
-      </div>
-
-      <div className="signIn-input-2">
-        <label htmlFor="password" className="label label-2">Password</label>
-        <input type="password" id="password" name="password" value={formData.password}  onChange={handleChange} className="signUp-input" required />
-
-      </div>
+         <fieldset className="signIn-input-2">
+          <legend className="label label-2">Password</legend>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            value={formData.password}
+            onChange={handleChange}
+            className="signIn-input"
+            placeholder="Enter password"
+            required
+          />
+        </fieldset>
+      
       <div>
       <button className="signIn-button" type="submit">Login</button>
       </div>
