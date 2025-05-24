@@ -34,7 +34,8 @@ const SignIn = () => {
       </div>
       <form  onSubmit={handleSubmit}>
         <div>
-        <fieldset className="signIn-input">
+        <div className="input-fields-container">
+        <fieldset className="input-fieldset">
           <legend className="label label-1">Email Address</legend>
           <input
             type="email"
@@ -42,13 +43,12 @@ const SignIn = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="form-input"
             placeholder="Enter email address"
             required
           />
         </fieldset>
 
-        <fieldset className="signIn-input">
+        <fieldset className="input-fieldset">
           <legend className="label label-2">Password</legend>
           <input
             type="password"
@@ -56,15 +56,15 @@ const SignIn = () => {
             name="password"
             value={formData.password}
             onChange={handleChange}
-            className="form-input"
             placeholder="Enter password"
             required
           />
         </fieldset>
+        </div>
 
         <div>
           <button
-            className="signIn-button"
+            className="signIn-button btn-text"
             type="submit"
             disabled={!(formData.email && formData.password)}
             style={{

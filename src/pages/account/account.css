@@ -29,6 +29,7 @@ padding: 20px;
 .user-info{
   display: flex;
  height: 76px;
+ 
 }
 
 .profile-info{
@@ -56,5 +57,6 @@ padding: 20px;
   height: 63px;
   width: 337px;
   color: #1D2226;
+  font-size : 14px;
 }
 

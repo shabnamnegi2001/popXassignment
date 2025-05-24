@@ -17,9 +17,9 @@
 .container {
   margin : auto;
   height: 100%;
-  max-width: 375px;
+  max-width: 400px;
   width: 100%;
-  padding: 20px;
+  padding: 40px 20px;
   background-color: #F7F8F9;
 }
 
@@ -40,6 +40,13 @@ input {
   border: none;
   box-shadow: none;
   outline: none; 
+  width: 100%;
+ height: 100%;
+ border-radius: 6px;
+ border: none;
+ padding-left: 6px;
+ padding-bottom: 6px;
+ font-size: 14px;
 }
 
 .form-input{
@@ -54,4 +61,21 @@ input {
 .profile-name{
   font-size: 15px;
   color: #1D2226;
+}
+
+.btn-text{
+  font-size: 16px;
+  font-weight: semi-bold;
+}
+
+.input-fieldset{
+  border-radius: 6px;
+  height: 40px;
+}
+
+
+.input-fields-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

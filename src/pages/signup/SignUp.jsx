@@ -30,38 +30,38 @@ const SignUp = () => {
 
     <form onSubmit={handleSubmit}>
       <div style={{width : '100%'}} >
-      <div style={{maxWidth : '200px', width : '100%'}}>
+      <div style={{maxWidth : '200px', width : '100%', paddingBottom : '20px'}}>
         <h2 className="heading" >Create your PopX 
           account</h2>
       </div>
-      <div className="signUp-content-container">
-        <fieldset className="signUp input-name">
+      <div className="input-fields-container">
+        <fieldset className="input-fieldset">
           <legend className="label label-name">Full Name<span className="star">*</span></legend>
           <input type="text" id="name" name="fullName" value={formData.fullName} onChange={handleChange} className="signUp-input" required />
         </fieldset>
 
-        <fieldset className="signUp input-phone">
+        <fieldset className="input-fieldset">
           <legend className="label label-phone">Phone number<span className="star">*</span></legend>
           <input type="number" id="phone" name="phone" value={formData.phone} onChange={handleChange} className="signUp-input" required />
         </fieldset>
 
-        <fieldset className="signUp input-email">
+        <fieldset className="input-fieldset">
           <legend className="label label-email">Email address<span className="star">*</span></legend>
           <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="signUp-input" required />
         </fieldset>
 
-        <fieldset className="signUp input-password">
+        <fieldset className="input-fieldset">
           <legend className="label label-password">Password<span className="star">*</span></legend>
           <input type="password" id="password" name="password" value={formData.password} onChange={handleChange} className="signUp-input" required />
         </fieldset>
 
-        <fieldset className="signUp input-company">
+        <fieldset className="input-fieldset">
           <legend className="label label-company">Company name</legend>
           <input type="text" id="company" name="company" value={formData.company} onChange={handleChange} className="signUp-input" />
         </fieldset>
 
-        <div className="signUp input-agency">
-          <label>Are you an Agency?<span className="star">*</span></label>
+        <div className="input-fieldset">
+          <label className="label">Are you an Agency?<span className="star">*</span></label>
           <div className="radio-input">
               <div>
 
@@ -96,7 +96,7 @@ const SignUp = () => {
 </div>
       </div>
       <div className="button-container" >
-        <button className="signUp-button" type="submit">Create Account</button>
+        <button className="signUp-button btn-text" type="submit">Create Account</button>
       </div>
     </form>
       </div>
