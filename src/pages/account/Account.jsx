@@ -8,7 +8,6 @@ const location = useLocation();
 const user = location.state;
 
  return(
-     <div className="main-account-container">
         <div className="account-container">
             <div className="nav-space">
                 Account Settings
@@ -20,8 +19,8 @@ const user = location.state;
                    <img  className="camera-img" src={cameraImage} />    
                 </div>
                 <div className="profile-info">
-                 <div className='profile-name'>{user.fullName}</div>
-                 <div className='profile-email'>{user.email}</div>
+                 <div className='profile-name' style={{fontSize: '15px'}}>{user.fullName}</div>
+                 <div className='profile-email' style={{fontSize: '14px'}}>{user.email}</div>
                 </div>
             </div>
             <div className="about">
@@ -30,7 +29,6 @@ const user = location.state;
             </div>
            
         </div>
-     </div>
     )
 }
 

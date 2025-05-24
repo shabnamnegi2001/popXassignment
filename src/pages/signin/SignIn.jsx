@@ -22,6 +22,8 @@ const SignIn = () => {
 
 
   return (
+      <div className='container'>
+
     <div className="signIn-container">
 
       <div className="signIn-heading">
@@ -75,6 +77,7 @@ const SignIn = () => {
         </div>
 
       </form>
+      </div>
 
     </div>
   )

@@ -4,6 +4,8 @@ import './home.css'
 
 const Home = () => {
     return (
+      <div className='container'>
+
         <div className="home-container">
             <div className="content-container">
                 <div className="inner-container">
@@ -21,6 +23,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
+      </div>
         </div>
     )
 }

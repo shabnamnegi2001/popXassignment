@@ -50,9 +50,8 @@ input {
  padding-left: 6px;
  padding-bottom: 6px;
 }
-/* 
-@media (max-width: 480px){
-.app-container{
- max-width: 400px;
+
+.profile-name{
+  font-size: 15px;
+  color: #1D2226;
 }
-} */

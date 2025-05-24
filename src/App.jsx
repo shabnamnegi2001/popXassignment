@@ -9,7 +9,6 @@ function App() {
 
   return (
     <div className="app-container">
-      <div className='container'>
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -18,7 +17,7 @@ function App() {
           <Route path='/userAccount' element={<AccountPage />} />
       </Routes>
       </Router>
-      </div>
+      
     </div>
 
   )

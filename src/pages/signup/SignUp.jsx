@@ -26,6 +26,8 @@ const SignUp = () => {
   }
 
   return (
+      <div className='container'>
+
     <form onSubmit={handleSubmit}>
       <div style={{width : '100%'}} >
       <div style={{maxWidth : '200px', width : '100%'}}>
@@ -97,6 +99,7 @@ const SignUp = () => {
         <button className="signUp-button" type="submit">Create Account</button>
       </div>
     </form>
+      </div>
 
   )
 }
